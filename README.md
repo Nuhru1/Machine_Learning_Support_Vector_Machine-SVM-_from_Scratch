@@ -44,6 +44,7 @@ When there is a misclassification, i.e our model make a mistake on the predictio
 # Result
 Visualizing our data:
 
+![screenshot 20](https://user-images.githubusercontent.com/44145876/52592713-14bbf800-2e82-11e9-8a48-3ca2fe249aea.png)
 
 
 The Accuracy is : 1.0 (100%)
