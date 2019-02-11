@@ -30,17 +30,22 @@ Now that we have the loss function, we take partial derivatives with respect to 
 
 ![s4](https://user-images.githubusercontent.com/44145876/52592153-9d399900-2e80-11e9-8797-a6225d88cc45.png)
 
+When there is no misclassification, i.e our model correctly predicts the class of our data point, we only have to update the gradient from the regularization parameter.
 
-When there is a misclassification, i.e our model make a mistake on the prediction of the class of our data point, we include the loss along with the regularization parameter to perform gradient update.
 
 ![s5](https://user-images.githubusercontent.com/44145876/52592162-a32f7a00-2e80-11e9-93b1-38442fc90601.png)
 
-
+When there is a misclassification, i.e our model make a mistake on the prediction of the class of our data point, we include the loss along with the regularization parameter to perform gradient update.
 
 ![s6](https://user-images.githubusercontent.com/44145876/52592175-aa568800-2e80-11e9-94b6-feed98d090e6.png)
  
 
 
+# Result
+Visualizing our data:
 
+
+
+The Accuracy is : 1.0 (100%)
 
 
