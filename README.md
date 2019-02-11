@@ -20,4 +20,27 @@ The objective is to find a plane that has the maximum margin, i.e the maximum di
  
  The loss function that helps maximize the margin is hinge loss.
  
+![screenshot 21](https://user-images.githubusercontent.com/44145876/52592142-9743b800-2e80-11e9-9d22-ad39bf0196f7.png)
+
+The cost is 0 if the predicted value and the actual value are of the same sign. If they are not, we then calculate the loss value. After adding the regularization parameter, the cost functions looks as below. The objective of the regularization parameter is to balance the margin maximization and loss.
+
+![s3](https://user-images.githubusercontent.com/44145876/52592149-9b6fd580-2e80-11e9-92c5-4b2c58076203.png)
+
+Now that we have the loss function, we take partial derivatives with respect to the weights to find the gradients. Using the gradients, we can update our weights.
+
+![s4](https://user-images.githubusercontent.com/44145876/52592153-9d399900-2e80-11e9-8797-a6225d88cc45.png)
+
+
+When there is a misclassification, i.e our model make a mistake on the prediction of the class of our data point, we include the loss along with the regularization parameter to perform gradient update.
+
+![s5](https://user-images.githubusercontent.com/44145876/52592162-a32f7a00-2e80-11e9-93b1-38442fc90601.png)
+
+
+
+![s6](https://user-images.githubusercontent.com/44145876/52592175-aa568800-2e80-11e9-94b6-feed98d090e6.png)
  
+
+
+
+
+
